@@ -41,6 +41,8 @@ nav ul {
 }
 
 /* Removes underline from links */
+/* Adds background and border to links */
 nav ul a:link {
     text-decoration: none;
+    background-color: #83adb5;
 }
