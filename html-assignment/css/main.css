@@ -34,7 +34,7 @@ section ul li:nth-child(odd) {
 
 /* Styling the Navigation */
 /* Removes bullets from navigation list */
-nav ul {
+nav ul li{
     list-style-type: none;
     margin: 0;
     padding: 0;
