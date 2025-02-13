@@ -8,7 +8,7 @@ body {
 
 /* Select multiple elements - changes background colour of header and footer */
 header,footer {
-    background-color: lightslategrey;
+    background-color: mediumvioletred;
 }
 
 
