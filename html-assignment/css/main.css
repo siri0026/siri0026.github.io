@@ -1,6 +1,8 @@
 /* CSS starts below */
 
+/* Inheritance - changes font family and increases font size */
 body {
+    font-family: Arial, sans-serif;
     font-size: 18px;
 }
 
