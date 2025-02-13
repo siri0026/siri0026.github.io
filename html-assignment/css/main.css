@@ -17,3 +17,7 @@ header,footer {
     color: #123524;
 }
 
+/* Id selector - adds box-shadow to image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
