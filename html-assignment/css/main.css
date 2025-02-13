@@ -8,10 +8,11 @@ body {
 
 /* Select multiple elements - changes background colour of header and footer */
 header,footer {
-    background-color: palevioletred;
+    background-color: #A7B49E;
 }
 
 
 /* Class selector - changes the colour of main heading */
 .site-title {
-    color:
+    color: dark
+}
