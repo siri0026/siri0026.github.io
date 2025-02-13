@@ -11,3 +11,8 @@ header,footer {
     background-color: lightslategrey;
 }
 
+
+/* Class selector - changes the colour of main heading */
+.site-title {
+    color: darkred;
+}
