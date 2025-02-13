@@ -14,5 +14,5 @@ header,footer {
 
 /* Class selector - changes the colour of main heading */
 .site-title {
-    color: dark
+    color: #123524;
 }
