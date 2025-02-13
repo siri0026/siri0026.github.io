@@ -31,3 +31,11 @@ section ul {
 section ul li:nth-child(odd) {
     background-color: #D0B6B6;
 }
+
+/* Styling the Navigation */
+/* Remove bullets from navigation list */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
