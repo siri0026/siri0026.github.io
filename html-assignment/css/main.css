@@ -42,9 +42,14 @@ nav ul {
 
 /* Removes underline from links */
 /* Adds background and border to links */
-nav ul a:link {
+nav ul li a:link {
     text-decoration: none;
     background-color: #83adb5;
     border: 2px solid #123524;
 
+}
+
+/* Changes background colour on hover or focus of links */
+nav ul li a:hover {
+    background-color: #E1CFDB;
 }
