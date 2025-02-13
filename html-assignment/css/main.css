@@ -33,9 +33,14 @@ section ul li:nth-child(odd) {
 }
 
 /* Styling the Navigation */
-/* Remove bullets from navigation list */
+/* Removes bullets from navigation list */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+/* Removes underline from links */
+nav ul a:link {
+    text-decoration: none;
 }
