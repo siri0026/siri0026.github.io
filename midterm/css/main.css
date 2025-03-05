@@ -6,14 +6,12 @@ body {
     background-color:#AAD4CF;
 }
 
-header {
-    position: absolute
-    top: 100px;
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #D4E9E7;
 }
 
-header image {
-    
-}
 
 header h1 {
     text-align: center;
