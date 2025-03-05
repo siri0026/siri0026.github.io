@@ -66,8 +66,9 @@ nav a {
 /* Article with image */
 
 article {
-    padding: 15px 15px;
-    font-size: 1.27em;
+    padding: 15px;
+    font-size: 1.26em;
+    margin: 5px;
 }
 
 article h2 {
@@ -80,9 +81,10 @@ article img {
     width: 300px;
     height: auto;
     float: left;
+    padding-right: 5px;
     margin-right: 25px;
-    margin-top: -10px;
-    padding-bottom: 20px;
+    margin-top: -5px;
+    padding-bottom: 30px;
 }
 
 article p {
