@@ -13,15 +13,22 @@ body {
     background-color: #D4E9E7;
 }
 
+/* Header */
+
 header {
     position: relative;
+    height: 341px;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: 4rem;
     color: white;
     position: absolute;
     top: 50%;
-    right: 50%;
+    left: 30%;
 }
+
+
 
