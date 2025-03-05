@@ -35,6 +35,7 @@ header h1 {
 
  nav {
     position: relative;
+    background-color: #D4E9E7;
  }
  nav ul {
     text-align: center;
@@ -43,14 +44,14 @@ header h1 {
 nav li {
     display: inline-block;
     padding: 0 20px;
-    width: 200px;
+    width: 320px;
     box-sizing: border-box;
 }
 
 nav a {
+    display: block;
     color: black;
     font-size: 1.5rem;
     text-transform: uppercase;
     text-decoration: none
-
 }
