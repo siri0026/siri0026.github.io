@@ -28,11 +28,11 @@ header img {
 header h1 {
     text-align: center;
     font-weight: lighter;
-    font-size: 4rem;
+    font-size: 8rem;
     color: white;
     position: absolute;
-    top: 40%;
-    right: 31.5%;
+    top: 45%;
+    right: 35%;
 }
 
  /* Navigation */
