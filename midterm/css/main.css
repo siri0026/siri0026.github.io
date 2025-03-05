@@ -89,9 +89,11 @@ article img {
 
 article p {
     display:block;
+    margin-bottom: -30px;
 }
 
 article.clearfix::after {
     display:block;
     clear:both;
 }
+
