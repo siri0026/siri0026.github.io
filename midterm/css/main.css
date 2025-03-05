@@ -116,14 +116,21 @@ article ul {
     padding-bottom: 400px;
 }
 
-.form label, p {
+.form label, .form p {
     font-size: 1.5rem;
     display: block;
     margin-bottom: 5px;
 }
 
-.form div, p {
+.form div, .form p {
     margin: 20px;
     padding-top: 30px;
     width: 10
+}
+
+.form input, .form textarea {
+   width: 100%;
+   display: block;
+   box-sizing: border-box;
+   resize: none;
 }
