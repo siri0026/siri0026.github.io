@@ -77,6 +77,12 @@ article h2 {
     margin-bottom: 25px;
 }
 
+article h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
 article img {
     width: 350px;
     height: auto;
@@ -97,12 +103,9 @@ article.clearfix::after {
     clear:both;
 }
 
-
 /* Article with facts */
-article h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: -5px;
+article ul {
+    margin-bottom: -35px;
 }
 
 
