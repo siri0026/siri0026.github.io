@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    width: 1024px;
+    width: 80%;
     margin: 0 auto;
     background-color: #D4E9E7;
 }
@@ -56,6 +56,7 @@ nav li {
 nav a {
     color: black;
     font-size: 1.5rem;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none
 }
@@ -63,10 +64,11 @@ nav a {
 /* Article with image */
 
 article {
-    padding: 20px;
-    font-size: 1rem;
+    padding: 5px 20px;
+    font-size: 1.25rem;
 }
 
 article h2 {
-    font-size: 
+    font-size: 1.75em;
+    font-weight: 600;
 }
