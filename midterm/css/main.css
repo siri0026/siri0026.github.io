@@ -17,6 +17,7 @@ body {
 
 header {
     position: relative;
+    height: 420px;
 }
 
 header h1 {
@@ -25,8 +26,8 @@ header h1 {
     font-size: 4rem;
     color: white;
     position: absolute;
-    top: 40%;
-    left: 32%;
+    top: 37%;
+    left: 31.5%;
 }
 
  /* Navigation */
@@ -43,7 +44,7 @@ header h1 {
 nav li {
     display: inline-block;
     padding: 0 20px;
-    width: 320px;
+    width: 325px;
     box-sizing: border-box;
 }
 
