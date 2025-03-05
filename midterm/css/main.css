@@ -116,8 +116,14 @@ article ul {
     padding-bottom: 400px;
 }
 
-
-.form label {
+.form label, p {
     font-size: 1.5rem;
     display: block;
+    margin-bottom: 5px;
+}
+
+.form div, p {
+    margin: 20px;
+    padding-top: 30px;
+    width: 10
 }
