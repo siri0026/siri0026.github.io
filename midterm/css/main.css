@@ -78,6 +78,10 @@ article img {
     width: 350px;
     height: auto;
     float: left;
+    margin-right: 25px;
 }
 
-article p
+article.clearfix::after {
+    display:block;
+    clear:both;
+}
