@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    width: 1024px;
+    width: 50%;
     margin: 0 auto;
     background-color: #D4E9E7;
 }
@@ -18,6 +18,11 @@ body {
 header {
     position: relative;
     height: 420px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
 }
 
 header h1 {
@@ -59,5 +64,9 @@ nav a {
 
 article {
     padding: 20px;
+    font-size: 2rem;
 }
 
+article h2 {
+    font-size: 
+}
