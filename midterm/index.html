@@ -36,7 +36,34 @@
     </article>
     <article>
         <h2></h2>
-        <form action=""></form>
+        <form action="">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="yourname">
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="youremail">
+            </div>
+            <div>
+                <label for="message">Your Message</label>
+                <input type="text" id="message" name="yourmessage">
+            </div>
+        
+            <p>Would you like to visit the starfish?</p>
+            <div>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="mailback" value="y">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="mailback" value="n">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="mailback" value="m">
+            </div>
+
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
     </article>
 </body>
 </html>
