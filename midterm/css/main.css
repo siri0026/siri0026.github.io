@@ -1,6 +1,7 @@
 /* Main CSS for Midterm Project starts below */
 
 /* Body */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:#AAD4CF;
@@ -53,4 +54,10 @@ nav a {
     font-size: 1.5rem;
     text-transform: uppercase;
     text-decoration: none
+}
+
+/* Article with image */
+
+article {
+    padding: 20px;
 }
