@@ -113,7 +113,7 @@ article ul {
     border: 2px solid black;
     margin-top: 30px;
     margin-bottom: 50px;
-    padding-bottom: 400px;
+    padding-bottom: 50px;
 }
 
 .form label, .form p {
@@ -125,12 +125,21 @@ article ul {
 .form div, .form p {
     margin: 20px;
     padding-top: 30px;
-    width: 10
+    width: 100%;
 }
 
-.form input, .form textarea {
+.form input {
    width: 100%;
    display: block;
-   box-sizing: border-box;
    resize: none;
 }
+
+.form textarea {
+    width: 100%;
+    display: block;
+    resize: none;
+ }
+
+
+
+
