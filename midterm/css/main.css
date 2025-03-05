@@ -35,6 +35,7 @@ header h1 {
  nav {
     position: relative;
     background-color: #D4E9E7;
+    display: block;
  }
  nav ul {
     text-align: center;
@@ -48,7 +49,6 @@ nav li {
 }
 
 nav a {
-    display: block;
     color: black;
     font-size: 1.5rem;
     text-transform: uppercase;
