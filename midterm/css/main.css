@@ -77,4 +77,7 @@ article h2 {
 article img {
     width: 350px;
     height: auto;
+    float: left;
 }
+
+article p
