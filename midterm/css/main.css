@@ -144,6 +144,8 @@ button {
     background-color: transparent;
     height: 45px;
     width: 60px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /* Footer copyright section */
