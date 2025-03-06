@@ -11,7 +11,7 @@ body {
 .wrapper { 
     width: 80%; /* Sets the width of the wrapper/main content section to 80% of the page*/
     margin: auto; /* Centers wrapper horizontally */
-    margin-bottom: 25px; /* Adds margin to bottom of the wrapper */
+    /* margin-bottom: 1px; Adds margin to bottom of the wrapper */
     background-color: #D4E9E7; /* Secondary main background colour */
 }
 
@@ -110,7 +110,7 @@ article ul {
     border: 2px solid black;
     font-size: 1.5rem;
     margin-top: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 100px; 
 }
 
 .form div {
