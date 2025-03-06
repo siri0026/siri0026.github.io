@@ -122,10 +122,10 @@ article ul {
 }
 
 .form textarea {
-   width: 100%;
-   resize: none;
-   padding-bottom: 85px;
+   width: 100%; /* Makes text area fill across horizontally */
+   padding-bottom: 85px;  /* Makes text area larger in height */
    margin-top: 5px;
+   resize: none; /* Disables resizing feature */
 }
 
 #name, #email {
