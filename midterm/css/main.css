@@ -140,6 +140,10 @@ article ul {
     margin-bottom: 20px;
 }
 
+/* Send Button */
+button {
+    border: 2px solid black;
+}
 
 
 
