@@ -5,7 +5,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px; /* Sets base font size */
     background-color:#AAD4CF; /* Main background colour of website */
-    margin: 0 auto; /* Centers page content */
+    margin-top: 0px; /* Gets rid of coloured margin at top */
+    margin-bottom: 20px; /* Adds main coloured margin space at bottom */
+    margin-left: auto; /* Centers page content */
 }
 
 .wrapper { 
@@ -38,6 +40,7 @@ header h1 {
 }
 
  /* Navigation */
+
 
 nav li {
     display: inline-block;
@@ -110,7 +113,7 @@ article ul {
     border: 2px solid black;
     font-size: 1.5rem;
     margin-top: 20px;
-    margin-bottom: 100px; 
+    margin-bottom: 20px; /* Wrapper size at bottom */
 }
 
 .form div {
