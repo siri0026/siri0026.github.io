@@ -40,14 +40,10 @@ header h1 {
 }
 
  /* Navigation */
-
-
 nav li {
-    display: inline-block;
-    padding: 0 133px;
-    box-sizing: border-box;
+    display: inline-block; /* Displays ul in one line */
+    padding: 0 133px; /* Padding to space li out evenly */
 }
-
 
 nav a {
     color: black;
@@ -57,17 +53,16 @@ nav a {
     text-decoration: none;
 }
 
-/* Adds vertical lines in navbar */
+/* Vetical lines in navbar */
 nav ul :nth-child(2) {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
 
-/* Article with image */
-
+/* Article styling */
 article {
     padding: 15px;
-    font-size: 1.3em;
+    font-size: 1.3em; 
     margin: 5px;
 }
 
@@ -83,69 +78,67 @@ article h3 {
     margin-bottom: -5px;
 }
 
+article p {
+    margin-bottom: -30px; /* Reduces vertical distance to facts section */
+}
+
+/* Article with image section */
 article img {
-    width: 350px;
+    width: 350px; /* Adjusts size of image */
     height: auto;
-    float: left;
+    float: left; /* Makes image float on the left */
     padding-right: 5px;
     margin-right: 25px;
-    margin-top: -5px;
+    margin-top: -5px; /* Makes image closer to h2 */
     padding-bottom: 30px;
 }
 
-article p {
-    display:block;
-    margin-bottom: -30px;
-}
-
 article.clearfix::after {
-    display:block;
-    clear:both;
+    display: block; /* Makes element behave as block  */
+    clear: both; /* Clears floated image inside article*/
+    content: '';
 }
 
 /* Article with facts */
 article ul {
-    margin-bottom: -35px;
+    margin-bottom: -30px; /* Reduces vertical distance to facts section */
 }
 
 /* Contact Section */
-.form {
-    border: 2px solid black;
+.contactinfo {
+    border: 2px solid black; /* Adds black border for section */
     font-size: 1.5rem;
-    margin-top: 20px;
+    margin-top: 20px; /* Adds space between h3 */
     margin-bottom: 20px; /* Wrapper size at bottom */
 }
 
-.form div {
-    margin: 20px;
+.contactinfo div {
+    margin: 20px; /* Centers content inside form */
 }
 
-.form textarea {
+.contactinfo textarea {
    width: 100%; /* Makes text area fill across horizontally */
    padding-bottom: 85px;  /* Makes text area larger in height */
-   margin-top: 5px;
    resize: none; /* Disables resizing feature */
 }
 
 #name, #email {
-    width: 100%;
-    padding-bottom: 15px;
-    margin-top: 5px;
+    width: 100%; /* Makes text fill across horizontally */
+    padding-bottom: 15px; /* Makes text larger in height */
 }
 
-.form p {
-    font-size: 1.75rem;
+.contactinfo p {
+    font-size: 1.75rem; /* Makes paragraph font size slightly bigger than label */
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Adds space between radio section */
 }
 
-
-/* Send Button */
+/* Button section */
 button {
     border: 2px solid black;
     text-transform: uppercase;
     background-color: transparent;
-    height: 45px;
+    height: 45px; /* Resizes button */
     width: 60px;
 }
 

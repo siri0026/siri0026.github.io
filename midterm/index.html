@@ -7,25 +7,30 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Wrapper div with content -->
     <div class="wrapper">
-    <header id="home">
-        <img src="images/lone-starfish-wide.jpg" alt="Lone starfish wide">
+    <!-- Header section of page -->
+    <header id="home">  <!-- ID to link with navigation home anchor -->
+        <img src="images/lone-starfish-wide.jpg" alt="Lone starfish wide"> 
         <h1>Lone Starfish</h1>
+        <!-- Navigation menu -->
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#story">Story</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li> <!-- Link to home section -->
+                <li><a href="#story">Story</a></li> <!-- Link to story section -->
+                <li><a href="#contact">Contact</a></li> <!-- Link to contact section -->
             </ul>
         </nav>
     </header>
-    <article class="clearfix" id="story">
+
+    <!-- Story section of page -->
+    <article id="story"> <!-- ID to link with navigation story anchor -->
         <h2>Life of a Starfish</h2>
         <img src="images/lone-starfish.jpg" alt="Lone starfish">
         <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
         </p>
     </article>
-
+    <!-- Facts about starfish section -->
     <article>
         <h3>Facts About Starfish</h3>
         <ul>
@@ -35,40 +40,45 @@
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
     </article>
-    <article id="contact">
+    <!-- Contact form fill out section -->
+    <article id="contact"> <!-- ID to link with navigation contact anchor -->
         <h3>Contact to learn more</h3>
-        <form class="form">
+        <form class="contactinfo">
+            <!-- Input field for user's name -->
             <div>
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="yourname">
             </div>
+            <!-- Input field for user's email -->
             <div>
                 <label for="email">Your Email</label>
                 <input type="email" id="email" name="youremail">
             </div>
+            <!-- Textarea for user's message -->
             <div>
                 <label for="message">Your Message</label>
                 <textarea id="message" name="yourmessage"></textarea>
             </div>
-        
             <p>Would you like to visit the starfish?</p>
-            <div class="radio">
+            <!-- Radio buttons with options: Yes, No, and Maybe -->
+            <div>
                 <label for="yes">Yes</label>
-                <input type="radio" id="yes" name="mailback" value="y">
+                <input type="radio" id="yes" name="starfishvisit" value="y">
                 <label for="no">No</label>
-                <input type="radio" id="no" name="mailback" value="n">
+                <input type="radio" id="no" name="starfishvisit" value="n">
                 <label for="maybe">Maybe</label>
-                <input type="radio" id="maybe" name="mailback" value="m">
+                <input type="radio" id="maybe" name="starfishvisit" value="m">
             </div>
-
+            <!-- Submit button section -->
             <div>
                 <button type="submit">Send</button>
             </div>
         </form>
     </article>
+    <!-- Footer section for copyright information -->
     <footer>
         <p>@ Lone Starfish.</p>
     </footer>
-    </div> 
+    </div> <!-- End of wrapper div -->
 </body>
 </html>
