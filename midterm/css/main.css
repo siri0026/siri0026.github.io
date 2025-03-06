@@ -116,12 +116,6 @@ article ul {
     margin-bottom: 50px;
 }
 
-.form label, .form p {
-    margin-bottom: 3px;
-    margin-top: 5px;
-    padding-bottom: 5px;
-}
-
 .form div {
     margin: 20px;
     padding-top: 5px;
@@ -131,18 +125,19 @@ article ul {
    width: 100%;
    resize: none;
    padding-bottom: 85px;
+   margin-top: 5px;
 }
 
 #name, #email {
     width: 100%;
     padding-bottom: 15px;
+    margin-top: 5px;
 }
-
 
 .form p {
     font-size: 1.75rem;
-    margin-left: 5px;
-    padding-left: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 
