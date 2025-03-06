@@ -149,6 +149,12 @@ button {
     width: 60px;
 }
 
+/* Footer copyright section */
+footer {
+    text-align: right;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
 
 
  
