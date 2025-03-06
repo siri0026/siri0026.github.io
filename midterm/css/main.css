@@ -10,7 +10,8 @@ body {
 
 .wrapper {
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 25px; /* Adds margin to bottom of the page */
     background-color: #D4E9E7;
 }
 
