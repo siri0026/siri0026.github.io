@@ -143,6 +143,10 @@ article ul {
 /* Send Button */
 button {
     border: 2px solid black;
+    text-transform: uppercase;
+    background-color: transparent;
+    height: 45px;
+    width: 60px;
 }
 
 
