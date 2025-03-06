@@ -39,24 +39,24 @@ header h1 {
     right: 31%;
 }
 
+/* Vetical lines in navbar */
+nav ul :nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
  /* Navigation */
 nav li {
     display: inline-block; /* Displays ul in one line */
     padding: 0 133px; /* Padding to space li out evenly */
 }
 
-nav a {
+nav li a {
     color: black;
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-/* Vetical lines in navbar */
-nav ul :nth-child(2) {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
 }
 
 /* Article styling */
