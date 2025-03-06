@@ -118,7 +118,6 @@ article ul {
 }
 
 .form label, .form p {
-    display: block;
     margin-bottom: 5px;
     margin-top: 5px;
     padding-bottom: 5px;
@@ -130,17 +129,22 @@ article ul {
     padding-top: 30
 }
 
+.form textarea {
+   width: 100%;
+   resize: none;
+   padding-top: 85px;
+}
+
+#name, #email {
+    width: 100%;
+    padding-top: 15px;
+}
+
+
 .form p {
     font-size: 1.75rem;
     margin-left: 5px;
     padding-left: 15px;
-}
-
-.form input, .form textarea {
-   width: 100%;
-   display: block;
-   box-sizing: border-box;
-   resize: none;
 }
 
 
