@@ -11,7 +11,7 @@ body {
 .wrapper {
     width: 80%;
     margin: auto;
-    margin-bottom: 25px; /* Adds margin to bottom of the page */
+    margin-bottom: 25px; /* Adds margin to bottom of the wrapper */
     background-color: #D4E9E7;
 }
 
@@ -46,6 +46,7 @@ header h1 {
     background-color: #D4E9E7;
     display: block;
  }
+
  nav ul {
     text-align: center;
  }
@@ -56,12 +57,19 @@ nav li {
     box-sizing: border-box;
 }
 
+
 nav a {
     color: black;
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
+}
+
+/* Adds vertical lines in navbar */
+nav ul :nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 /* Article with image */
