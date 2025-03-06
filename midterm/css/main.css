@@ -116,16 +116,18 @@ article ul {
     margin: 20px; /* Centers content inside form */
 }
 
-.contactinfo textarea {
-   width: 100%; /* Makes text area fill across horizontally */
-   padding-bottom: 85px;  /* Makes text area larger in height */
-   resize: none; /* Disables resizing feature */
-}
-
 #name, #email {
     width: 100%; /* Makes text fill across horizontally */
     padding-bottom: 15px; /* Makes text larger in height */
+    margin-top: 10px;
 }
+
+.contactinfo textarea {
+    width: 100%; /* Makes text area fill across horizontally */
+    padding-bottom: 85px;  /* Makes text area larger in height */
+    margin-top: 10px;
+    resize: none; /* Disables resizing feature */
+ }
 
 .contactinfo p {
     font-size: 1.75rem; /* Makes paragraph font size slightly bigger than label */
