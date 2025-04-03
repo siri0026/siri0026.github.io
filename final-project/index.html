@@ -8,38 +8,40 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header and Navigation bar with logo, links, and search form -->
-    <header>
-        <div class="header-content"> <!-- Container for all header elements -->
-            <div class="logo"> <!-- Logo container -->
-                <img src="images/logo.png" alt="Logo"> 
+    <div class="intro-content"> <!-- Layout wrapper to visually group the header and welcome section -->
+        <!-- Header and Navigation bar with logo, links, and search form -->
+        <header>
+            <div class="header-content"> <!-- Container for all header elements -->
+                <div class="logo"> <!-- Logo container -->
+                    <img src="images/logo.png" alt="Logo"> 
+                </div>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Team</li>
+                        <li>Contact</li>
+                    </ul>
+                    <form action="thanks.html" method="post"> <!-- Search bar -->
+                        <label for="search"></label>
+                        <input type="text" id="search" name="searchbar">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Team</li>
-                    <li>Contact</li>
-                </ul>
-                <form action="thanks.html" method="post"> <!-- Search bar -->
-                    <label for="search"></label>
-                    <input type="text" id="search" name="searchbar">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </nav>
-        </div>
-    </header>
+        </header>
 
-    <!-- Welcome section> -->
-    <section class="welcome">
-        <img src="images/main-banner.jpg" alt="Office lobby">
-        <div class="welcome-content">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum voluptas incidunt quam nostrum sint!</p>
-            <button href="">Connect with us<i class="fa-solid fa-magnifying-glass"></i></button> <!-- CTA button - goes to contact section -->
-        </div>
-    </section>
+        <!-- Welcome section> -->
+        <section class="welcome">
+            <img src="images/main-banner.jpg" alt="Office lobby">
+            <div class="welcome-content">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum voluptas incidunt quam nostrum sint!</p>
+                <button href="">Connect with us<i class="fa-solid fa-magnifying-glass"></i></button> <!-- CTA button - goes to contact section -->
+            </div>
+        </section>
+    </div>
 
     <!-- About Us section -->
     <section id="about">
@@ -53,6 +55,15 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, velit ipsam> Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
             </div>
         </div>
+    </section>
+
+    <section>
+        <div class="services-content">
+            <
+
+
+        </div>
+
     </section>
 
     <footer>
