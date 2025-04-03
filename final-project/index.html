@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/e8525d7a25.js" crossorigin="anonymous"></script>
     <title>siri0026 Final Project</title>
+    <script src="https://kit.fontawesome.com/e8525d7a25.js" crossorigin="anonymous"></script>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header and Navigation bar with logo, links, and search form -->
     <header>
-        <div> <!-- Logo container -->
-            <img src="images/logo.png" alt="Logo"> 
+        <div class="header-content"> <!-- Container for all header elements -->
+            <div class="logo"> <!-- Logo container -->
+                <img src="images/logo.png" alt="Logo"> 
+            </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Team</li>
+                    <li>Contact</li>
+                </ul>
+                <form action="thanks.html" method="post"> <!-- Search bar -->
+                    <label for="search"></label>
+                    <input type="text" id="search" name="searchbar">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Team</li>
-                <li>Contact</li>
-            </ul>
-            <form action="thanks.html" method="post"> <!-- Search bar -->
-                <label for="search"></label>
-                <input type="text" id="search" name="searchbar">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </nav>
     </header>
 
     <!-- Welcome section> -->
