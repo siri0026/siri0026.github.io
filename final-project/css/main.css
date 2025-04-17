@@ -49,11 +49,15 @@
     display: block;
     padding: 16px;
     text-decoration: none;
+    color: #c78b07;
 }
 
 .main-nav ul li:nth-child(1) {
     background-color: #c78b07;
+    margin-top: -16px;
+    text-decoration-color: black;
 }
+
 
 .nav-search {
     display: flex;
