@@ -117,7 +117,7 @@ body {
     top: 5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .welcome-content h1 {
@@ -144,28 +144,22 @@ body {
 }
 
 /* About us section */
-.about-content {
-    display: flex;
-    flex-direction: column;
+#about {
     background-color: #ffe6ac;
     width: 100%;
-    padding-bottom: 1.25%;
 }
-
-.about-image {
+.about-content {
     width: 95%;
     margin: auto;
-    margin-top: 2.5%;
+    display: flex;;
+    flex-direction: column;
+    padding-bottom: 1.25%;
 }
 
 #about img {
     width: 100%;
     margin-bottom: 2.5%;
-}
-
-.about-text {
-    width: 95%;
-    margin-left: 2.5%;
+    margin-top: 2.5%;
 }
 
 .about-text h2 {
@@ -487,7 +481,7 @@ body {
 
     
     .welcome {
-        height: 500px;
+        height: 600px;
         overflow: hidden;/* Hides welcome image behind nav */
     }
 
@@ -512,4 +506,6 @@ body {
         font-size: 1.5rem;
         padding: 2rem 2.75rem;
     }
+
+    /* /* About section */
 } 
