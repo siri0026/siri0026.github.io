@@ -80,9 +80,13 @@ body {
 .nav-search form {
     display: flex;
     width: 100%;
-
 }
 
 .nav-search input {
     flex-grow: 1;
+}
+
+/* Main banner section */
+.welcome img {
+    width: 100%;
 }
