@@ -87,11 +87,20 @@ body {
 }
 
 /* Main banner section */
+.welcome {
+    width: 100%;
+    position: relative; /* Allows for absolutely positioned content inside */
+}
 .welcome img {
     width: 100%;
+    display: block;
 }
 
 .welcome-content {
+    color: white;
     background-color: #222222;
+    font-size: 14px;
     opacity: 75%;
+    position: absolute;
+    top: 5%;
 }
