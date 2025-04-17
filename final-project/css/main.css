@@ -423,3 +423,9 @@ body {
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    /* Header */
+    .header-content {
+        display: flex;
+        flex-direction: row;
+    }
