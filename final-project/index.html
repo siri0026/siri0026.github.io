@@ -8,17 +8,15 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Wrapper for entire body -->
-     <div class="body-content">
-        <!-- Wrapper for header and welcome section-->
+
+    <div class="body-content"> <!-- Wrapper for entire body -->
+        <!-- Header section with logo and navigation-->
+        <!-- <div class="intro-content"> Wrapper for header and welcome section - main banner image -->
         <div class="intro-content">
-            <!-- Header section with logo and navigation-->
             <header id="home">
-                <section class="header">
-                    <div class="header-content"> <!-- Groups logo and nav -->
-                        <div class="logo"> <!-- Contains logo only -->
-                            <img src="images/logo.png" alt="Logo"> 
-                        </div>
+                <div class="header"> <!-- Wrapper for header content - black backgorunf -->
+                    <div class="header-content"> <!-- Wrapper for logo and nav -->
+                        <div class="logo"> <!-- Contains logo only --><img src="images/logo.png" alt="Logo"> </div>
                         <!-- Navigation menu with links -->
                         <nav class="main-nav"><!-- Includes links and search bar -->
                             <ul>
@@ -38,171 +36,172 @@
                             </div>
                         </nav>
                     </div>
-                </section>
+                </div>
             </header>
-
-            <!-- Main banner/welcome section -->
-            <section class="welcome">
-                <img src="images/main-banner.jpg" alt="Main Banner image"> <!-- Background banner image -->
-                <div class="welcome-content"> <!-- Contains text content over the image -->
-                    <h1>Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas neciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
-                    <a href="#contact" class="button">Connect with us<i class="fa-solid fa-caret-right" style="color: #000000;"></i></a> <!-- Link to contact section, styled as button -->
-                </div>
-            </section>
+        
+                <!-- Main banner/welcome section -->
+                <section class="welcome">
+                    <img src="images/main-banner.jpg" alt="Main Banner image"> <!-- Background banner image -->
+                    <div class="welcome-content"> <!-- Contains text content over the image -->
+                        <h1>Welcome to Three Star Media</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas neciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
+                        <a href="#contact" class="button">Connect with us<i class="fa-solid fa-caret-right" style="color: #000000;"></i></a> <!-- Link to contact section, styled as button -->
+                    </div>
+                </section>
         </div>
-        <div class="container"> <!-- Layout boundary that aligns all of main sections from About to Contact -->
-            <!-- About section with image and text -->
-            <section id="about">
-                <div class="about-content"> <!-- Layout wrapper for image and text side-by-side -->
-                    <div class="about-image"> <!-- Column containing image -->
-                        <img src="images/about-us.jpg" alt="About Us image"> <!-- Shown on left in desktop view -->
-                    </div>
-                    <div class="about-text"> <!-- Column containing heading and description -->
-                        <h2>About Us</h2> <!-- Text on the right in desktop layout -->
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Services section -->
-            <section id="services"> <!-- Main content section containing all service items -->
-                <h2>Our Services</h2>
-                <!-- Digital -->
-                <div class="service">
-                    <img src="images/digital.jpg" alt="Digital image">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <button>Digital Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-                <!-- Marketing -->
-                <div class="service">
-                    <img src="images/marketing.jpg" alt="Marketing image">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <button>Marketing Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-                <!-- Video -->
-                <div class="service">
-                    <img src="images/video.jpg" alt="Video image">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <button>Video Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-                <!-- Web Development --> 
-                <div class="service">
-                    <img src="images/web.jpg" alt="Web image">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <button>Web Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-                <!-- Print service --> 
-                <div class="service">
-                    <img src="images/print.jpg" alt="Print image">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
-                    <button>Print Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-            </section>
-
-            <!-- Vision section -->
-            <div class="vision"> <!-- Container for vision content -->
-                <img src="images/vision.jpg" alt="Vision image">
-                <div class="vision-content"> <!-- Full-width block with image background and text -->
-                    <h2>Our Vision</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatem delenti iure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-                    <button>Learn More<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
-                </div>
-            </div>
-
-            <!-- Team section -->
-            <section id="team">
-                <h2>Our Team</h2> 
-                <!-- First team member -->
-                <div class="staff"> <!-- Flex row: image on left, text on right -->
-                    <div class="john-image"> 
-                        <img src="images/john.jpg" alt="John image">
-                    </div>
-                    <div class="john-text"> 
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-                    </div>
-                </div>
-                <!-- Second team member -->
-                <div class="staff"> <!-- Second row with reverse layout as first -->
-                    <div class="bob-image"> 
-                        <img src="images/bob.jpg" alt="Bob image">
-                    </div>
-                    <div class="bob-text"> 
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Contact section -->
-            <section id="contact">
-                <h1>Contact Us</h1>
-                <!-- Form block for user inquiries -->
-                <div class="form-content">  <!-- Contains all form fields and button -->
-                    <h3>Send us a message</h3>
-                    <form class="contact-form" action="submit-form" method="post">
-                        <div>
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="yourname"> <!-- Input field for user's name -->
+            <div class="container"> <!-- Layout boundary that aligns all of main sections from About to Contact -->
+                <!-- About section with image and text -->
+                <section id="about">
+                    <div class="about-content"> <!-- Layout wrapper for image and text side-by-side -->
+                        <div class="about-image"> <!-- Column containing image -->
+                            <img src="images/about-us.jpg" alt="About Us image"> <!-- Shown on left in desktop view -->
                         </div>
-                        <div>
-                            <label for="email">Email</label> <!-- Input field for user's email  -->
-                            <input type="email" id="email" name="youremail">
+                        <div class="about-text"> <!-- Column containing heading and description -->
+                            <h2>About Us</h2> <!-- Text on the right in desktop layout -->
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
                         </div>
-                        <div>
-                            <label for="message">Message</label> <!-- Textarea for user's message -->
-                            <textarea id="message" name="message"></textarea>
-                        </div>
-                        <button type="submit">Send</button>
-                    </form>
+                    </div>
+                </section>
+
+                <!-- Services section -->
+                <section id="services"> <!-- Main content section containing all service items -->
+                    <h2>Our Services</h2>
+                    <!-- Digital -->
+                    <div class="service">
+                        <img src="images/digital.jpg" alt="Digital image">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <button>Digital Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
+                    <!-- Marketing -->
+                    <div class="service">
+                        <img src="images/marketing.jpg" alt="Marketing image">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <button>Marketing Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
+                    <!-- Video -->
+                    <div class="service">
+                        <img src="images/video.jpg" alt="Video image">
+                        <h3>Video Production</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <button>Video Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
+                    <!-- Web Development --> 
+                    <div class="service">
+                        <img src="images/web.jpg" alt="Web image">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <button>Web Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
+                    <!-- Print service --> 
+                    <div class="service">
+                        <img src="images/print.jpg" alt="Print image">
+                        <h3>Print</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam et vitae corporis quaerat deleniti explicabo nisi?</p>
+                        <button>Print Plans<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
+                </section>
+
+                <!-- Vision section -->
+                <div class="vision"> <!-- Container for vision content -->
+                    <img src="images/vision.jpg" alt="Vision image">
+                    <div class="vision-content"> <!-- Full-width block with image background and text -->
+                        <h2>Our Vision</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex voluptatem delenti iure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fugiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+                        <button>Learn More<i class="fa-solid fa-caret-right" style="color: #ffffff;"></i></button>
+                    </div>
                 </div>
-            </section> 
 
-            <!-- Business hours section -->
-            <div class="hours-content"> <!-- Table layout displaying open hours -->
-                <h3>Hours of operation</h3>
-                <table>
-                    <thead>
-                        <tr> <!-- Creates two columns in the table -->
-                            <th>Days</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <!-- Creates two rows in the table (body), displaying open days and hours -->
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <!-- Team section -->
+                <section id="team">
+                    <h2>Our Team</h2> 
+                    <!-- First team member -->
+                    <div class="staff"> <!-- Flex row: image on left, text on right -->
+                        <div class="john-image"> 
+                            <img src="images/john.jpg" alt="John image">
+                        </div>
+                        <div class="john-text"> 
+                            <h3>John Doe</h3>
+                            <h4>CEO and Co-owner</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                        </div>
+                    </div>
+                    <!-- Second team member -->
+                    <div class="staff"> <!-- Second row with reverse layout as first -->
+                        <div class="bob-image"> 
+                            <img src="images/bob.jpg" alt="Bob image">
+                        </div>
+                        <div class="bob-text"> 
+                            <h3>Bob Rite</h3>
+                            <h4>CFO and Co-owner</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
+                        </div>
+                    </div>
+                </section>
 
-            <!-- Location section with map -->
-            <div class="location-content"> <!-- Wrapper with location content -->
-                <h3>Location</h3>
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.980683100932!2d-75.76322545361855!3d45.34900723428902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743077759827!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div> <!-- End of content container before switching to full-width footer -->
+                <!-- Contact section -->
+                <section id="contact">
+                    <h1>Contact Us</h1>
+                    <!-- Form block for user inquiries -->
+                    <div class="form-content">  <!-- Contains all form fields and button -->
+                        <h3>Send us a message</h3>
+                        <form class="contact-form" action="submit-form" method="post">
+                            <div>
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="yourname"> <!-- Input field for user's name -->
+                            </div>
+                            <div>
+                                <label for="email">Email</label> <!-- Input field for user's email  -->
+                                <input type="email" id="email" name="youremail">
+                            </div>
+                            <div>
+                                <label for="message">Message</label> <!-- Textarea for user's message -->
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </section> 
 
-        <!-- Footer section for copyright information -->
-        <footer>
-            <p>&copy; Copyright Three Star Media, 2020</p>
-            <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
-        </footer>
-     </div>
+                <!-- Business hours section -->
+                <div class="hours-content"> <!-- Table layout displaying open hours -->
+                    <h3>Hours of operation</h3>
+                    <table>
+                        <thead>
+                            <tr> <!-- Creates two columns in the table -->
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!-- Creates two rows in the table (body), displaying open days and hours -->
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Location section with map -->
+                <div class="location-content"> <!-- Wrapper with location content -->
+                    <h3>Location</h3>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.980683100932!2d-75.76322545361855!3d45.34900723428902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743077759827!5m2!1sen!2sca"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> <!-- End of content container before switching to full-width footer -->
+
+            <!-- Footer section for copyright information -->
+            <footer>
+                <p>&copy; Copyright Three Star Media, 2020</p>
+                <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+            </footer>
+    </div>
 </body>
 </html>
