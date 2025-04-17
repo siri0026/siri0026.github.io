@@ -156,6 +156,7 @@ body {
     padding-bottom: 1.25%;
 }
 
+
 #about img {
     width: 100%;
     margin-bottom: 2.5%;
@@ -507,5 +508,30 @@ body {
         padding: 2rem 2.75rem;
     }
 
-    /* /* About section */
+     /* About section */
+    .about-content {
+        flex-direction: row;
+        /* justify-content: center; */
+        text-align: left;
+        padding-bottom: 1.25%;
+        padding-top: 1.25%;
+    }
+
+    .about-text {
+        flex-basis: 100%;
+        margin-left: 2.5%;
+    }
+
+    .about-image {
+        flex-basis: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 3rem;
+        padding-bottom: 2.5%;
+    }
+
+    /* Services section */
+    
+
 } 
