@@ -96,7 +96,6 @@ body {
 }
 .welcome img {
     width: 100%;
-
     display: block;
 }
 
@@ -136,11 +135,43 @@ body {
     margin-bottom: 5%;
 }
 
+.container {
+    width: 100%;
+}
+
 /* About us section */
 .about-content {
     display: flex;
     flex-direction: column;
     background-color: #ffe6ac;
+    width: 100%;
+    padding-bottom: 1.25%;
+}
+
+.about-image {
+    width: 95%;
+    margin: auto;
+    margin-top: 2.5%;
+}
+
+#about img {
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+
+.about-text {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.about-text p {
+    font-size: .875rem;
+    margin-bottom: 2.5%;
 }
 
 
