@@ -104,7 +104,7 @@ body {
 
 .welcome-content {
     width: 95%;
-    height: 90%;
+    height: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,27 +115,26 @@ body {
     top: 5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .welcome-content h1 {
-    font-size: 3.25rem;
-    margin-top: 2.5%;;
-    margin-bottom: 2.5%;
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 1.25%;
 }
 
 .welcome-content p {
-    font-size: .875rem; /* Changes font size to 14px */
+    font-size: .5rem; /* Changes font size to 14px */
 }
 
 .button {
     display: inline-block;
     background-color: #c78c06;
     color: #222;
-    padding: 1.25rem 1.5rem;
+    padding: 1rem 1.375rem;
     text-decoration: none;
-    font-size: 1.125rem;
-    margin-bottom: 5%;
+    font-size: .75rem;
 }
 
 .container {
