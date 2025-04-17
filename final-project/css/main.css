@@ -421,26 +421,45 @@ body {
     /* Page wrapper */
     .body-content {
         max-width: 1200px;
+        width: 100%;
         margin: 0 auto;
     }
 
     /* Header */
+
     .header-content {
+        width: 95%;
+        margin: auto;
         flex-direction: row;
         justify-content: space-between;
     }
 
     .logo {
         width: auto;
-        margin: 0;
     }
 
-    main.nav {
+    
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Puts navbar items in a row */
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .main-nav ul li {
         width: auto;
     }
 
-    .main-nav ul {
-        display: flex;
-        align-items: center;
+    .main-nav ul li a {
+        padding: 1rem;
+        font-size: 1rem;
     }
+
 }
