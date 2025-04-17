@@ -98,16 +98,20 @@ body {
 
 .welcome-content {
     color: white;
-    background-color: #222222;
-    opacity: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 .welcome-content h1 {
     font-size: 3rem;
+    margin-bottom: 5%;
 }
 
 .welcome-content p {
     font-size: .875rem; /* Changes font size to 14px */
 }
+
+
