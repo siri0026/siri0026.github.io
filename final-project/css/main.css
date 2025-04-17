@@ -245,21 +245,28 @@ body {
     width: 95%;
     display: block;
     position: relative;
+    margin: 2.5%;
 }
 
 .vision p {
     font-size: .5rem;
     color: white;
-    margin-left: 2.5%;
+
 }
 
 .vision h2 {
     font-size: 1.0625rem;
     color: white;
-    margin-left: 2.5%;
 }
 
-
+.vision button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border-color: #c78c06; */
+    border: 1px solid #c78c06;
+    font-size: .625rem;
+    padding: 1rem 1.5rem;
+}
 
 
 
