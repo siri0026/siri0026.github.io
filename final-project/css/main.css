@@ -2,6 +2,7 @@
 
 /* Page styling */
 body {
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     margin: auto;
 }
@@ -12,13 +13,13 @@ body {
 .body-content {
     width: 100%;
     margin: auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 
 
 /* Header */
 .header {
-    background-color: #222222;
+    background-color: #222;
         width: 100%;
 }
 
@@ -31,7 +32,7 @@ body {
 
 /* Logo styling */
 .logo {
-    background-color: #c78b07;
+    background-color: #c78c06;
     width: 95%;
     margin-top: 2.5%;
     margin-bottom: 0%;
@@ -61,11 +62,11 @@ body {
     display: block;
     padding: 16px;
     text-decoration: none;
-    color: #c78b07;
+    color: #c78c06;
 }
 
 .main-nav ul li:nth-child(1) a {
-    background-color: #c78b07;
+    background-color: #c78c06;
     margin-top: -16px;
     color: black;
 }
@@ -127,8 +128,8 @@ body {
 
 .button {
     display: inline-block;
-    background-color: #c78b07;
-    color: black;
+    background-color: #c78c06;
+    color: #222;
     padding: 1.25rem 1.5rem;
     text-decoration: none;
     font-size: 1.125rem;
