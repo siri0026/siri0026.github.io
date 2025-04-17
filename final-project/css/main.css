@@ -137,6 +137,12 @@ body {
 }
 
 /* About us section */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe6ac;
+}
+
 
 /* Our Services */
 
