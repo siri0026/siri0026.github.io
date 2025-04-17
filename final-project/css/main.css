@@ -432,4 +432,15 @@ body {
 
     .logo {
         width: auto;
+        margin: 0;
     }
+
+    main.nav {
+        width: auto;
+    }
+
+    .main-nav ul {
+        display: flex;
+        align-items: center;
+    }
+}
