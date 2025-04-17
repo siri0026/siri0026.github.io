@@ -492,8 +492,7 @@ body {
     }
 
     .welcome img {
-        position: absolute;
-        top: -75px;
+        width: 100%;
     }
     
     .welcome-content {
@@ -504,5 +503,13 @@ body {
     .welcome-content h1 {
         font-size: 5rem;
     }
-}
 
+    .body-content p {
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 1.5rem;
+        padding: 2rem 2.75rem;
+    }
+} 
