@@ -14,6 +14,8 @@ body {
     background-color: aquamarine;
 }
 
+
+/* Header */
 .header {
     background-color: #222222;
         width: 100%;
@@ -26,6 +28,7 @@ body {
     justify-content: center;
 }   
 
+/* Logo styling */
 .logo {
     background-color: #c78b07;
     width: 95%;
@@ -37,6 +40,7 @@ body {
     padding-top: 2.5%;
 }
 
+/* Navbar */
 .main-nav {
     width: 95%;
 }
@@ -65,9 +69,20 @@ body {
     color: black;
 }
 
-
+/* Nav search bar */
 .nav-search {
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5%;
+    margin-top: -2.5%;
 }
 
+.nav-search form {
+    display: flex;
+    width: 100%;
+
+}
+
+.nav-search input {
+    flex-grow: 1;
+}
