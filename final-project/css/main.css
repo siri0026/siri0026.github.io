@@ -99,8 +99,15 @@ body {
 .welcome-content {
     color: white;
     background-color: #222222;
-    font-size: 14px;
     opacity: 75%;
     position: absolute;
     top: 5%;
+}
+
+.welcome-content h1 {
+    font-size: 3rem;
+}
+
+.welcome-content p {
+    font-size: .875rem; /* Changes font size to 14px */
 }
