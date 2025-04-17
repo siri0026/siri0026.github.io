@@ -516,6 +516,7 @@ body {
         text-align: left;
         padding-bottom: 1.25%;
         padding-top: 1.25%;
+
     }
 
     .about-text {
@@ -568,5 +569,9 @@ body {
         grid-column: 5 / 7;
         grid-row: 2 / 3;
     }
+
+    .service {
+        border: 5px solid white;
+    }  /* Adds white border around service divs */
 } 
 
