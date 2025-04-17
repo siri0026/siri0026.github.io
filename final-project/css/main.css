@@ -90,3 +90,8 @@ body {
 .welcome img {
     width: 100%;
 }
+
+.welcome-content {
+    background-color: #222222;
+    opacity: 75%;
+}
