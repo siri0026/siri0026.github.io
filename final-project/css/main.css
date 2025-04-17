@@ -89,25 +89,35 @@ body {
 /* Main banner section */
 .welcome {
     width: 100%;
-    position: relative; /* Allows for absolutely positioned content inside */
+    height: 100%;
+    position: relative; 
 }
 .welcome img {
     width: 100%;
+
     display: block;
 }
 
 .welcome-content {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 5%;
     padding-left: 2.5%;
     padding-right: 2.5%;
+    overflow: hidden;
 }
 
 .welcome-content h1 {
-    font-size: 3rem;
-    margin-bottom: 5%;
+    font-size: 3.25rem;
+    margin-top: 2.5%;;
+    margin-bottom: 2.5%;
 }
 
 .welcome-content p {
@@ -121,5 +131,17 @@ body {
     padding: 1.25rem 1.5rem;
     text-decoration: none;
     font-size: 1.125rem;
-    margin-bottom: 2.5%;
+    margin-bottom: 5%;
 }
+
+/* About us section */
+
+/* Our Services */
+
+/* Our Vision */
+
+/* Our Team */
+
+/* Contact section */
+
+/* Footer */
