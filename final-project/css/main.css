@@ -176,6 +176,12 @@ body {
 
 
 /* Our Services */
+.services-content {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 100%;
+}
 
 /* Our Vision */
 
