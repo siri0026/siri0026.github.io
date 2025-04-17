@@ -417,11 +417,9 @@ body {
 
 /* /* Media Queries for Deskstop Styles starts below (min-width: 760px) */
 @media screen and (min-width: 760px) {
+
+    /* Page wrapper */
     .body-content {
         max-width: 1200px;
         margin: 0 auto;
     }
-
-
-
-}
