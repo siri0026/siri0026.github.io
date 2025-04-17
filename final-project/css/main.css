@@ -247,6 +247,20 @@ body {
     position: relative;
 }
 
+.vision p {
+    font-size: .5rem;
+    color: white;
+    margin-left: 2.5%;
+}
+
+.vision h2 {
+    font-size: 1.0625rem;
+    color: white;
+    margin-left: 2.5%;
+}
+
+
+
 
 
 
