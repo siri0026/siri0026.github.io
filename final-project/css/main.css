@@ -325,14 +325,18 @@ body {
 }
 .contact h2 {
     font-size: 1.5rem;
+    margin-bottom: 1.25%;
 }
 
 .contact h3 {
     font-size: 1.0625rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .contact-form {
     display: block;
+    margin-top: 1.25%;
 }
 
 .contact-form label {
