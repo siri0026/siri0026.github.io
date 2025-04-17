@@ -270,7 +270,19 @@ body {
 
 
 /* Our Team */
+.team {
+    width: 100%;
+    background-color: white;
+}
 
+.team-content {
+    width: 95%;
+    margin: auto;
+}
+
+.team img {
+    width: 100%
+}
 
 /* Contact section */
 
