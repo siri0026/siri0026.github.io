@@ -226,8 +226,22 @@ body {
     padding: .75rem 1rem;
 }
 
-
 /* Our Vision */
+.vision {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.vision img {
+    width: 100%;
+}
+.vision-content {
+    width: 95%;
+    display: block;
+}
+
+
 
 /* Our Team */
 
