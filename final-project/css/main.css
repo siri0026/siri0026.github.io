@@ -2,10 +2,11 @@
 
 /* Page styling */
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin: auto;
 }
+
+
 
 /* Enitre body wrapper */
 .body-content {
