@@ -426,6 +426,10 @@ body {
 
     /* Header */
     .header-content {
-        display: flex;
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: auto;
     }
