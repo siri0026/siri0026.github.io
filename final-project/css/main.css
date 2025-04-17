@@ -312,6 +312,24 @@ body {
     font-size: .5rem;
     margin-left: 2.5%;
 }
+
 /* Contact section */
+.contact {
+    width: 100%;
+    background-color: white
+}
+
+.contact-content {
+    width: 95%;
+    margin: auto;
+}
+.contact h2 {
+    font-size: 1.5rem;
+}
+
+.contact h3 {
+    font-size: 1.0625rem;
+}
+
 
 /* Footer */
