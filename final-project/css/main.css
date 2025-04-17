@@ -325,12 +325,12 @@ body {
 }
 .contact h2 {
     font-size: 1.5rem;
-    margin-bottom: 1.25%;
+    margin-bottom: 0;
 }
 
 .contact h3 {
     font-size: 1.0625rem;
-    margin-top: 0%;
+    margin-top: 1.25%;
     margin-bottom: 0%;
 }
 
@@ -364,6 +364,19 @@ body {
     padding: .175rem;
 }
 
+/* Hours of operation */
+.hours-content {
+    width: 100%;
+    background-color: #c78c06;
+}
 
+.hours-content table {
+    width: 100%;
+    background-color: #ffe6ac;
+}
+
+.hours-content th, .hours-content td {
+    border: 1px solid black;
+}
 
 /* Footer */
