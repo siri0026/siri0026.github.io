@@ -52,10 +52,10 @@
     color: #c78b07;
 }
 
-.main-nav ul li:nth-child(1) {
+.main-nav ul li:nth-child(1) a {
     background-color: #c78b07;
     margin-top: -16px;
-    text-decoration-color: black;
+    color: black;
 }
 
 
