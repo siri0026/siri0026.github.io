@@ -428,7 +428,7 @@ body {
     /* Header */
 
     .header-content {
-        width: 95%;
+        width:85%;
         margin: auto;
         flex-direction: row;
         justify-content: space-between;
@@ -437,8 +437,6 @@ body {
     .logo {
         width: auto;
     }
-
-    
 
     .main-nav {
         display: flex;
@@ -454,7 +452,7 @@ body {
     }
 
     .main-nav ul li {
-        width: auto;
+        margin-left: auto;;
     }
 
     .main-nav ul li a {
