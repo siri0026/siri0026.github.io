@@ -640,7 +640,7 @@ body {
      }
 
      .contact-container {
-        width: 95%;
+        margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
@@ -651,16 +651,25 @@ body {
      .form-content {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
+        margin: 2.5%;
      }
 
      .location-content {
         grid-column: 2 / 3;
         grid-row: 1 / 3;
+        height: 100%;
+        width: auto;
+        margin: 2.5%;
+     }
+
+     .map {
+        height: 75%;
      }
 
      .hours-content {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
+        margin-top: 
      }
  }
     
