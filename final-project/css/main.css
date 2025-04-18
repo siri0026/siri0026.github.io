@@ -299,6 +299,7 @@ body {
 }
 
 .staff h4 {
+    font-size: 1rem;
     margin-left: 2.5%;
     margin-top: 0%;
     margin-bottom: 1.25%;
@@ -593,6 +594,7 @@ body {
         border: 5px solid white;
     }  /* Adds white border around service divs */
     
+    
 
      /* Vision section */
      .vision-content {
@@ -631,6 +633,7 @@ body {
      .bob-image {
         order: 1; /* Places image after text content */
      }
+
 
      /* Contact section */
      .contact-content {
