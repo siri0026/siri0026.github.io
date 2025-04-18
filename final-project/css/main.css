@@ -324,8 +324,8 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
+
 
 .contact h2 {
     font-size: 1.5rem;
@@ -342,7 +342,6 @@ body {
 .contact-form {
     display: block;
     margin-top: 1.25%;
-    order: 1;
 }
 
 .contact-form label {
@@ -395,7 +394,7 @@ body {
 
 /* Location */
 .location-content {
-    order: 3;
+    order: 2;
     width: 100%;
     height: 100%;
 }
