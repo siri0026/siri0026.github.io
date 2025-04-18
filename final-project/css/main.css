@@ -94,6 +94,12 @@ body {
     flex-grow: 1;
 }
 
+.nav-search button {
+    background-color: #222; /* Styles nav button/magnifying glass */
+    border: 1px solid #c78c06;
+}
+
+
 /* Main banner section */
 .welcome {
     width: 100%;
