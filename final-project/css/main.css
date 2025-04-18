@@ -627,6 +627,7 @@ body {
      .contact-content {
         width: 95%;
         margin: auto;
+        display: grid;
      }
 
 }
