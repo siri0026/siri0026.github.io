@@ -651,7 +651,8 @@ body {
      .form-content {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
-        margin: 2.5%;
+        margin: 1.25%;
+        padding-bottom: 30%;
      }
 
      .location-content {
@@ -659,7 +660,7 @@ body {
         grid-row: 1 / 3;
         height: 100%;
         width: auto;
-        margin: 2.5%;
+        margin: 1.25%;
      }
 
      .map {
@@ -671,6 +672,38 @@ body {
         grid-row: 3 / 4;
         margin-top: 
      }
- }
+
+     .contact-form label {
+        font-size: 1rem;
+     }
+
+    .contact-form textarea {
+        padding-bottom: 20%;
+    }
+
+    .hours-content th, .hours-content td {
+        font-size: 1rem;
+    }    
+
+    .contact button {
+        font-size: 1.5rem;
+        padding: .175rem;
+    }
+
     
 
+ /* Footer section */
+    .footer {
+        padding: auto;
+    }
+
+    .footer-content {
+        padding: 0;
+    }
+
+    .footer p, .footer a {
+        font-size: 1rem;
+
+ }
+
+    
