@@ -319,6 +319,13 @@ body {
     width: 95%;
     margin: auto;
 }
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .contact h2 {
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -627,8 +634,34 @@ body {
      .contact-content {
         width: 95%;
         margin: auto;
-        display: grid;
+        padding-bottom: 0;
      }
 
-}
+     .contact-container {
+        width: 95%;
+        align-items: flex-start;
+        text-align: left;
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-bottom: 0;
+        padding-bottom: 0; */
+
+     }
+
+     .form-content  .location-content{}
+
+    }
+     }
+
+     .location-content {
+
+     }
+
+     .hours-content {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+     }
+
+    
 
