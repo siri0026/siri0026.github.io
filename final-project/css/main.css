@@ -596,15 +596,14 @@ body {
 
      /* Team section */
      .team-content {
-        width: 100%;
+        width: 95%;
      }
 
      .staff {
         display: flex;
         flex-direction: row;
-        width: 100%;
+        margin: auto;
         padding-bottom: 0;
-        margin-bottom: auto;
      }
 
      .staff img {
@@ -616,13 +615,18 @@ body {
      }
 
      .john-text .bob-text {
-        width: auto;
-        padding-bottom: 0;
-       
+        width: 100%;
+        /* padding-bottom: 0; */
      }
 
      .bob-image {
         order: 1; /* Places image after text content */
+     }
+
+     /* Contact section */
+     .contact-content {
+        width: 95%;
+        margin: auto;
      }
 
 }
