@@ -7,28 +7,21 @@ body {
     margin: auto;
 }
 
-.container {
+.container, .body-content {
     width: 100%;
-    background-color: white;
+    background-color: white; /* Background colour of website */
+    margin: auto; /* Centers content horizontally */
 }
 
-/* Enitre body wrapper */
-.body-content {
-    width: 100%;
-    margin: auto;
-    background-color: white;
-}
-
-
- /* Header section */
+ /* Header Section */
 .header {
-    background-color: #222;
-        width: 100%;
+    background-color: #222; /* Dark colour in nav */
+    width: 100%;
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Flex container for logo and nav */
+    flex-direction: column;  /* Stack in column for vertical nav in mobile view */
     align-items: center;
     justify-content: center;
 }   
@@ -36,42 +29,42 @@ body {
 /* Logo styling */
 .logo {
     background-color: #c78c06;
-    width: 95%;
+    width: 95%; /* Makes logo block full width of it's container */
     margin-top: 2.5%;
     margin-bottom: 0%;
 }
 
 .logo img {
     width: 50px;
-    padding-top: 2.5%;
+    padding-top: 2.5%; /* Adds spacing between the top of the logo box and the image */
 }
 
-/* Navbar */
+/* Navigation Section */
 .main-nav {
     width: 95%;
 }
 
 .main-nav ul {
     list-style-type: none;
-    width: 100%;
-    text-align: center;
+    width: 100%; /* Makes list take full width of it's container*/
+    text-align: center; /* Centers nav items horizontally */
     padding-left: 0%;
 }
 
 .main-nav ul li {
-    width: 100%;
+    width: 100%; /* Makes each list item span full width for stacking in mobile view */
 }
 
 .main-nav ul li a {
-    display: block;
+    display: block; /* Makes anchor tags behave as block elements for padding*/
     padding-top: 5%;
-    text-decoration: none;
+    text-decoration: none; /* Removes underline from nav links */
     color: #c78c06;
 }
 
 .main-nav ul li:nth-child(1) a {
-    background-color: #c78c06;
-    margin-top: -16px;
+    background-color: #c78c06; /* Gives background colour to home anchor */
+    margin-top: -16px; /* Slightly aligns item upwards */
     padding-bottom: 1.25%;
     color: black;
 }
@@ -79,19 +72,17 @@ body {
 
 /* Nav search bar */
 .nav-search {
-    display: flex;
-    justify-content: center;
     margin-bottom: 2.5%;
     margin-top: 2.5%;
 }
 
 .nav-search form {
-    display: flex;
-    width: 100%;
+    display: flex; /* Arranges input and button horizontally */
+    width: 100%; /* Makes search bar take up full width in mobile view */
 }
 
 .nav-search input {
-    flex-grow: 1;
+    flex-grow: 1; /* Makes search bar text wide */
 }
 
 .nav-search button {
@@ -100,22 +91,20 @@ body {
 }
 
 
-/* Main banner section */
-.welcome {
-    width: 100%;
-    height: 100%;
-    position: relative; 
-}
-.welcome img {
-    width: 100%;
-    display: block;
+/* Banner section */
+.welcome { 
+    position: relative;  /* Allows overlay content */
 }
 
-.welcome-content {
+.welcome img {
+    width: 100%;
+}
+
+.welcome-content { /* Content with transparent background */
     width: 95%;
     height: 85%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Allows each content to be in it's own line */
     justify-content: center;
     align-items: flex-start;
     color: white;
@@ -138,7 +127,7 @@ body {
 }
 
 .button {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #c78c06;
     color: #222;
     padding: 1rem 1.375rem;
@@ -150,7 +139,7 @@ body {
     width: 100%;
 }
 
-/* About us section */
+/* About section */
 #about {
     background-color: #ffe6ac;
     width: 100%;
@@ -158,8 +147,8 @@ body {
 .about-content {
     width: 95%;
     margin: auto;
-    display: flex;;
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Places image and text in it's own line */
     padding-bottom: 1.25%;
 }
 
@@ -184,14 +173,14 @@ body {
 /* Our Services */
 .services-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Arranges service content vertically */
     width: 100%;
 }
 
 
 .services-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Displays each service div in a column */
     width: 95%;
     margin: auto;
     background-color:  #ffe6ac;
@@ -231,21 +220,19 @@ body {
 /* Our Vision */
 .vision {
     width: 100%;
-    /* height: 145px; */
-    position: relative;
+    position: relative;  /* Allows for image to position in container */
     overflow: hidden;
 }
 
 .vision img {
     width: 100%;
     display: block;
-    position: absolute;
+    position: absolute; /* Position image in it's container */
     top: -50px;
 }
 
 .vision-content {
     width: 95%;
-    /* display: block; */
     position: relative; /* Makes vision context/text visible over image */
     margin: 2.5%;
 }
@@ -264,15 +251,13 @@ body {
 .vision button {
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
-    /* border-color: #c78c06; */
     border: 1px solid #c78c06;
     font-size: .625rem;
     padding: 1rem 1.5rem;
     margin-top: 1.25%;
 }
 
-
-/* Our Team */
+/* Team section */
 .team {
     width: 100%;
 }
@@ -283,8 +268,7 @@ body {
 }
 
 .team img {
-    width: 100%;
-    /* margin-top: 0%; */
+    width: 100%; /* Makes entire image fully visible */
 }
 
 .team h2 {
@@ -329,10 +313,9 @@ body {
 
 .contact-container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; /* Displays contact divs in a vertical alignment for mobile view */
 }
-
 
 .contact h2 {
     font-size: 1.5rem;
@@ -401,7 +384,7 @@ body {
 
 /* Location */
 .location-content {
-    order: 2;
+    order: 2; /* Displays location/map at the bottom */
     width: 100%;
     height: 100%;
 }
@@ -450,15 +433,12 @@ body {
         font-size: 2.125rem;
     }
 
-
-    /* Header */
+    /* Header section */
     .header-content {
         width:90%;
         margin: auto;
         display: flex;
-        /* align-items: center; */
-        flex-direction: row;
-        /* justify-content: space-between; */
+        flex-direction: row; /* Row layout for desktop view */
         align-items: center;
         padding: .5rem;
     }
@@ -475,16 +455,13 @@ body {
     }
 
     .main-nav {
-        display: flex;
-        align-items: center;;
+        display: flex; 
+        align-items: center;
         gap: 2rem;
     }
 
-    /* Puts navbar items in a row */
     .main-nav ul {
-        display: flex;
-        /* flex-wrap: nowrap; */
-        /* justify-content: space-evenly; */
+        display: flex; /* Horizontal nav layout */
     }
 
     .main-nav ul li {
@@ -492,8 +469,7 @@ body {
     }
 
     .main-nav ul li a {
-        /* display: inline-block; */
-        white-space: nowrap; /* prevents nav anchor from breaking into two lines */
+        white-space: nowrap; /* Prevents nav anchor from breaking into two lines */
         padding: 1rem;
         font-size: 1rem;
     }
@@ -510,11 +486,9 @@ body {
     }
 
     /* Weclome section */
-
-    
     .welcome {
-        height: 600px;
-        overflow: hidden;/* Hides welcome image behind nav */
+        height: 600px; /* Fixed height for large banner */
+        overflow: hidden; /* Hides welcome image behind nav */
     }
 
     .welcome img {
@@ -537,12 +511,10 @@ body {
 
      /* About section */
     .about-content {
-        flex-direction: row;
-        /* justify-content: center; */
+        flex-direction: row; /* Displays about content side by side */
         text-align: left;
         padding-bottom: 1.25%;
         padding-top: 1.25%;
-
     }
 
     .about-text {
@@ -551,7 +523,7 @@ body {
     }
 
     .about-image {
-        flex-basis: 100%;
+        flex-basis: 100%; /* Takes up full width of container */
     }
 
     .about-content h2 {
@@ -566,7 +538,7 @@ body {
     }
 
     .services-container {
-        display: grid;
+        display: grid; /* Grid layout for services */
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
@@ -597,9 +569,8 @@ body {
     }
 
     .service {
-        border: 5px solid white;
-    }  /* Adds white border around service divs */
-    
+        border: 5px solid white; /* Adds white border around service divs */
+    }  
     
 
      /* Vision section */
@@ -629,16 +600,11 @@ body {
     }
 
      .staff img {
-        /* display: block; */
         width: 100%;
-        /* margin-bottom: -5px; */
         margin-top: 0;
-        /* height: 100%; */
         padding: 0;
      }
 
-     .john-text, .bob-text {
-     }
 
      .bob-image {
         order: 1; /* Places image after text content */
@@ -683,7 +649,6 @@ body {
      .hours-content {
         grid-column: 1 / 3;
         grid-row: 3 / 4;
-        margin-top: 
      }
 
      .contact-form label {
@@ -704,10 +669,6 @@ body {
     }
 
  /* Footer section */
-    .footer {
-        padding: auto;
-    }
-
     .footer-content {
         padding: 0;
     }
@@ -716,5 +677,3 @@ body {
         font-size: 1rem;
     }
 }
-
-    
