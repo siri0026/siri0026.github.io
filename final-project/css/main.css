@@ -619,21 +619,25 @@ body {
      .staff {
         display: flex;
         flex-direction: row;
+        align-items: stretch;
         margin: auto;
         padding-bottom: 0;
      }
 
+    .staff > div {
+        width: 100%;
+    }
+
      .staff img {
         /* display: block; */
-        width: auto;
+        width: 100%;
         /* margin-bottom: -5px; */
         margin-top: 0;
         /* height: 100%; */
+        padding: 0;
      }
 
-     .john-text .bob-text {
-        width: 100%;
-        /* padding-bottom: 0; */
+     .john-text, .bob-text {
      }
 
      .bob-image {
@@ -699,8 +703,6 @@ body {
         padding: .175rem;
     }
 
-    
-
  /* Footer section */
     .footer {
         padding: auto;
@@ -712,7 +714,7 @@ body {
 
     .footer p, .footer a {
         font-size: 1rem;
-
- }
+    }
+}
 
     
